@@ -1,0 +1,163 @@
+
+html {
+    width: 595px;
+    height: 842px;
+    border: 1px solid black;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 16px;
+}
+
+.header{
+    display: flex;
+    
+}
+.campo_logo{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 7.51263px;
+gap: 7.51px;
+
+width: 188px;
+height: 112px;
+}
+.status{
+    
+}
+.comprovante{
+    width: 73px;
+    height: 15px;
+
+    /* Body/Medium/Caption
+
+    $font-family-base
+    $font-caption
+    $font-weight-medium= 500
+    $line-height-md
+    */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+
+    /* Neutral Color/Neutral 600 */
+
+    color: #525252;
+
+}
+
+.transf{
+    width: 365.86px;
+height: 29px;
+
+/* Headline/Regular/H4
+
+$font-family-base
+$font-headline-size-h4
+$font-weight-regular= 400
+$line-height-sm
+*/
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+/* identical to box height, or 29px */
+
+display: flex;
+align-items: center;
+
+/* Brand Color - Primary/Primary 950 */
+
+color: #00003C;
+}
+
+.realizada{
+    width: 365.86px;
+    height: 32px;
+
+  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+
+
+    display: flex;
+    align-items: center;
+
+    
+
+    color: #00003C;
+
+}
+.topo{
+    display: flex;
+    font-size: 10px;
+}
+.topo_esq{
+    color: #525252;
+}
+.topo_dir{
+    text-align: right;
+    color: #404040;
+}
+.miolo{
+    display: flex;
+    font-size: 10px;
+}
+.miolo_esq{
+    color: #525252;
+}
+.miolo_dir{
+    text-align: right;
+    color: #404040;
+}
+.miolo2{
+    display: flex;
+    font-size: 10px;
+}
+.miolo2_esq{
+    color: #525252;
+}
+.miolo2_dir{
+    text-align: right;
+    color: #404040;
+}
+.cod{
+    display: flex;
+    font-size: 10px;
+    padding-bottom: 87px;
+    gap: 22px;
+}
+.cod_esq{
+    color: #525252;
+}
+.cod_dir{
+    text-align: right;
+    color: #404040;
+    
+}
+.rodape{
+    display: flex;
+    
+}
+.rodape_esq p{
+    color: #00003C;
+    font-weight: 700;
+font-size: 12px;
+line-height: 150%;
+
+}
+.rodape_dir{
+
+}
